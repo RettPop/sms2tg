@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     //buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "cc.mightu.sms_forward"
+        applicationId "com.sapisoft.sms2tg"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1

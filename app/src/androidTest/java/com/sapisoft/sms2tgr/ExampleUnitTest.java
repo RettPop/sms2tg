@@ -1,6 +1,8 @@
 package com.sapisoft.sms2tgr;
 
 import android.content.Context;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.runner.AndroidJUnit4;
 
 import junit.framework.Assert;
 
@@ -32,7 +34,7 @@ public class ExampleUnitTest {
             // Context of the app under test.
             Context appContext = InstrumentationRegistry.getTargetContext();
 
-            Assert.assertEquals("cc.mightu.sms_forward", appContext.getPackageName());
+            Assert.assertEquals("com.sapisoft.sms2tg", appContext.getPackageName());
         }
     }
 }
